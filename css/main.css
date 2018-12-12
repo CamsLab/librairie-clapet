@@ -197,9 +197,16 @@ button {
 
 .chapo {
   font-size: 1.6em;
-  text-align: center;
+  font-family: WorkSans;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 20px;
   width: 960px;
-  margin: auto;
+  height: 116px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: normal;
+  text-align: center;
 }
 
 .full-width {
@@ -226,7 +233,7 @@ button {
   margin-bottom: 35px;
   width: 960px;
   height: 350px;
-  background: url("../img/header-bg.jpeg");
+  background: url("../img/header-bg_new.png");
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
