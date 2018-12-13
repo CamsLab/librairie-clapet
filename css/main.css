@@ -14,6 +14,7 @@ body {
   color: #303044;
 }
 
+
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
   font-size: 1.4em;
   line-height: 1.4;
@@ -169,6 +170,30 @@ button {
 
 .align-center {
   text-align: center;
+  
+  /**
+* separator
+*/
+.separator {
+  display: block;
+  margin: 100px auto;
+  width: 200px;
+  height: 1px;
+  transform: rotate(15deg);
+  border: none;
+  background-color: #d9d9d9;
+}
+
+.separator::before {
+  content: "";
+  display: block;
+  margin: 100px auto;
+  width: 200px;
+  height: 1px;
+  transform: rotate(-30deg);
+  border: none;
+  background-color: #d9d9d9;
+}
 }
 
 .align-right {
@@ -196,15 +221,18 @@ button {
 }
 
 .chapo {
-  font-size: 1.6em;
+ 
   font-family: WorkSans;
-  font-size: 20px;
+  font-size: 25px;
   color: #000;
   margin-bottom: 20px;
   width: 960px;
   height: 116px;
   margin-left: auto;
   margin-right: auto;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
   letter-spacing: normal;
   text-align: center;
 }
@@ -327,11 +355,11 @@ button {
 .honey-pot-list {
   text-align: center;
   display: flex;
-  justify-content: space-between;
 }
 
 .honey-pot {
-  margin: 0 30px 35px 30px;
+  display: inline-block;
+  margin: auto;
   text-align: center;
 }
 
@@ -397,8 +425,11 @@ button {
   display: block;
 }
 
+
 .tiff{
   display: flex;
+
+  
 
 min-width: 500px;}
 
@@ -445,6 +476,7 @@ min-width: 500px;}
 /**
 * news-list
 */
+
 .news-list {
   display: grid;
   grid-gap: 35px;
@@ -471,8 +503,7 @@ min-width: 500px;}
 /**
 * single
 */
-.page-single {
-  text-align: justify;
+
 }
 
 .page-single__header {
