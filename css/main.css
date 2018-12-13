@@ -93,8 +93,8 @@ button {
 .container {
   margin: auto;
   padding: 0 15px;
-  width: 960px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .text-container {
@@ -237,6 +237,7 @@ button {
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
+  text-align: center
 }
 
 
@@ -247,7 +248,7 @@ button {
   padding-top: 20px;
   padding-bottom: 25px;
   bottom: 0;
-  width: 100%;
+  max-width: 100%;
   text-align: center;
   color: white;
   font-family: "Montserrat", "Avenir Next", Helvetica, Arial, sans-serif;
@@ -326,6 +327,7 @@ button {
 .honey-pot-list {
   text-align: center;
   display: flex;
+  justify-content: space-between;
 }
 
 .honey-pot {
