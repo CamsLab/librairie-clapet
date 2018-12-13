@@ -231,8 +231,8 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  width: 960px;
-  height: 350px;
+  width: 1440px;
+  height: 462px;
   background: url("../img/header-bg_new.png");
   background-size: cover;
   background-position: center bottom;
@@ -299,9 +299,21 @@ button {
 */
 .separator {
   display: block;
-  margin: 50px auto;
+  margin: 100px auto;
   width: 200px;
   height: 1px;
+  transform: rotate(15deg);
+  border: none;
+  background-color: #d9d9d9;
+}
+
+.separator::before {
+  content: "";
+  display: block;
+  margin: 100px auto;
+  width: 200px;
+  height: 1px;
+  transform: rotate(-30deg);
   border: none;
   background-color: #d9d9d9;
 }
@@ -313,6 +325,7 @@ button {
 
 .honey-pot-list {
   text-align: center;
+  display: flex;
 }
 
 .honey-pot {
@@ -384,8 +397,8 @@ button {
 
 .tiff{
   display: flex;
-}
-{min-width: 500px}
+
+min-width: 500px;}
 
 .news__date {
   margin: 0;
