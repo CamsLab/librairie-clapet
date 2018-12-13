@@ -170,30 +170,6 @@ button {
 
 .align-center {
   text-align: center;
-  
-  /**
-* separator
-*/
-.separator {
-  display: block;
-  margin: 100px auto;
-  width: 200px;
-  height: 1px;
-  transform: rotate(15deg);
-  border: none;
-  background-color: #d9d9d9;
-}
-
-.separator::before {
-  content: "";
-  display: block;
-  margin: 100px auto;
-  width: 200px;
-  height: 1px;
-  transform: rotate(-30deg);
-  border: none;
-  background-color: #d9d9d9;
-}
 }
 
 .align-right {
@@ -428,6 +404,8 @@ button {
 
 .tiff{
   display: flex;
+  max-width: 100%;
+  height: auto;
 
   
 
@@ -503,9 +481,6 @@ min-width: 500px;}
 /**
 * single
 */
-
-}
-
 .page-single__header {
   margin-bottom: 75px;
 }
@@ -538,3 +513,22 @@ min-width: 500px;}
   text-align: center;
   margin-bottom: 35px;
 }
+
+/**
+* conseils de lecture
+*/
+
+.parents {
+  display: flex;
+}
+
+.img {
+  min-width: 400px;
+}
+
+.enfants {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
