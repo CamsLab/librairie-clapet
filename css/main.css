@@ -442,7 +442,7 @@ min-width: 500px;}
   border-bottom: 1px solid #b0b0c5;
 }
 .news--main .news__link {
-  display: flex;
+ 
   align-items: flex-start;
 }
 .news--main .news__thumbnail {
