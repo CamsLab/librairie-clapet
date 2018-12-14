@@ -267,7 +267,7 @@ button {
   font-size: 5.4em;
   margin: 0;
   font-size: 64px;
-  font-family: Montserrat;
+  font-weight: bold;
 }
 
 .header__subtitle {
@@ -276,7 +276,6 @@ button {
   font-weight: 100;
   text-shadow: 1px 1px 5px #000;
   font-size: 42px ;
-  font-family: Montserrat;
 }
 
 
