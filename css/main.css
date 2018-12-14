@@ -547,7 +547,6 @@ min-width: 500px;}
 
 .ilfait {
   width: 600px;
-  height: 216px;
   font-family: WorkSans;
   font-size: 20px;
   font-weight: normal;
@@ -560,7 +559,6 @@ min-width: 500px;}
 
 .citation {
   width: 584px;
-  height: 86px;
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 200;
@@ -573,7 +571,6 @@ min-width: 500px;}
 
 .source {
   width: 600px;
-  height: 19px;
   font-family: WorkSans;
   font-size: 16px;
   font-weight: normal;
@@ -588,6 +585,20 @@ min-width: 500px;}
 .textejim {
   width: 600px;
   height: 160px;
+  font-family: WorkSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #1a1a1a
+}
+
+.Nullam {
+  width: 960px;
+  height: 360px;
   font-family: WorkSans;
   font-size: 20px;
   font-weight: normal;
