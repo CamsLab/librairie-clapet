@@ -471,6 +471,24 @@ min-width: 500px;}
   grid-column: span 1;
 }
 
+
+.news-grid-2 {
+  grid-column: span 2;
+}
+
+.news-grid-4 {
+  grid-column: span 4;
+}
+
+.news-list-liste1 {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 35px;
+}
+
+
 /**
 * -----------
 * Trumps
